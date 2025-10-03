@@ -249,7 +249,7 @@ body{
         height:12%;
         top:1.0%;
         left:-1.5%;
-        border-left-color: white;
+        border-left-color:2px solid white;
     }
      #trapezoid{
         transform: scale(0.7);
