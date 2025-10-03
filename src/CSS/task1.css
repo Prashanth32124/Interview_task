@@ -13,7 +13,7 @@ body{
     height: 80vh;
     padding:0;
     border: 3px solid rgb(112, 207, 214);
-    margin-left: 8%;
+    margin-left: 4%;
     margin-top: 3%;
 }
 
@@ -35,7 +35,7 @@ body{
     background:var(--bg-color);
     border-bottom: 3px solid var(--border-color);
     border-right: 3px solid var(--border-color);
-    margin-left:8%;
+    margin-left:4%;
     margin-top:3%;
 }
 .tag1 {
@@ -56,6 +56,7 @@ body{
     margin-bottom:37%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:larger;
+    margin-right:4%;
 }
 
 #heading{
@@ -65,7 +66,7 @@ body{
     font-size: 3.5rem; 
     line-height: 1.2; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    left: 10%; 
+    left: 6%; 
     top: 23%; 
     max-width: 30%;
     font-weight: 400; 
@@ -114,7 +115,7 @@ body{
     text-decoration: none;
 }
 .main-nav-links{
-     position: absolute;
+    position: absolute;
     color:white;
     display: flex;
     gap:2rem;
@@ -131,7 +132,7 @@ body{
     left: 30%;
     display: flex;   
     border-radius: 20px;
-    margin-left:25%;
+    margin-left:21%;
     margin-top:10%;
 }
 
@@ -192,7 +193,7 @@ body{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
     border: 2px solid var(--border-color);
     top:0;
-    margin-left:59%;
+    margin-left:55%;
     margin-top:3%;
     border-left-color:white;
 }
@@ -209,7 +210,7 @@ body{
     padding: 10px;
     border-radius: 8px;
     border: 2px solid rgba(0,0,0,0.5);
-    margin-left:87%;
+    margin-left:83%;
 }
 
 #fc img {
