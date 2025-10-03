@@ -228,9 +228,9 @@ body{
 
 @media (max-width: 600px) {
         .main-nav-links {
-        gap: 2rem;  
+        gap: 4rem;  
         left: 7%;  
-        top:15%;   
+        top:17%;   
     }
     #container1 {
         width: 160%;
@@ -272,9 +272,9 @@ body{
 
     #heading {
         font-size: 2rem;
-        max-width: 50%;
+        max-width: 52%;
         left: 5%;
-        top: 15%;
+        top: 17%;
     }
 
     #message {
