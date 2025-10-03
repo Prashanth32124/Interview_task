@@ -256,12 +256,12 @@ body{
     }
     .tag1{
         font-size: medium;
-        width: 36%;
+        width: 42%;
         height: 32px;
         margin-bottom:30%;
         margin-right:4%;
         top:3.7%;
-        left:160%;
+        left:155%;
     }
     #rat{
         width: 250px;
@@ -313,7 +313,7 @@ body{
     #fc {
         margin-left: 56%;
         left:80%;
-        top: 30%;
+        top: 89%;
     }
 
     #fc img {
