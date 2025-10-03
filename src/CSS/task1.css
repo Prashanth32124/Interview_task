@@ -308,12 +308,17 @@ body{
         flex-direction: column;
         left: 5%;
         top: 50%;
+        color:red;
     }
 
     #imagecont, #mattercont {
         width: 100%;
         padding: 5px;
     }
+    #imagecont img{
+        width: 100%;
+        height: auto;
+    };
 
     #fc {
         margin-left: 56%;
