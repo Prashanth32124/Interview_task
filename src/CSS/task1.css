@@ -280,10 +280,11 @@ body{
         top: 18%;
     }
     #message {
-        position: static;   /* no absolute */
-        margin: 10px 0 0 6%; /* small left margin */
-        max-width: 80%;     /* use more width on phones */
-        font-size: 1rem;    /* smaller font */
+        font-size: 1rem;
+        max-width: 120%;
+        margin-right: 60%;
+        top:31%;
+        left:10%;
     }
     #b1 {
         font-size: 0.9rem;
