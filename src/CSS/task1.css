@@ -308,7 +308,7 @@ body{
         flex-direction: column;
         left: 5%;
         top: 50%;
-        color:red;
+        border-color: red;
     }
 
     #imagecont, #mattercont {
