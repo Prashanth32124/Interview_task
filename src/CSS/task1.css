@@ -253,10 +253,12 @@ body{
      #trapezoid{
         transform: scale(0.7);
         transform-origin: top left;
+        left:0;
+        bottom:0;
     }
     .tag1{
         font-size: medium;
-        width: 42%;
+        width: 42.5%;
         height: 32px;
         margin-bottom:30%;
         margin-right:4%;
