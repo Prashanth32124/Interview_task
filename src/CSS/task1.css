@@ -229,7 +229,7 @@ body{
 @media (max-width: 600px) {
         .main-nav-links {
         gap: 4rem;  
-        left: 7%;  
+        left: 10%;  
         top:17%;   
     }
     #container1 {
@@ -313,7 +313,7 @@ body{
     #fc {
         margin-left: 56%;
         left:130%;
-        top: 40%;
+        top: 35%;
     }
 
     #fc img {
