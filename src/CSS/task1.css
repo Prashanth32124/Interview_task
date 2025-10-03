@@ -225,10 +225,12 @@ body{
     margin-top:50%;
     margin-right:10%;
 }
+
 @media (max-width: 600px) {
         .main-nav-links {
-        gap: 0.5rem;  
-        left: 7%;     
+        gap: 2rem;  
+        left: 7%;  
+        top:15%;   
     }
     #container1 {
         width: 95%;
@@ -242,29 +244,52 @@ body{
         top:1.4%;
         left:-2%;
     }
-    .tag1, #trapezoid, #rat {
+     #trapezoid{
         transform: scale(0.7);
         transform-origin: top left;
+    }
+    .tag1{
+        font-size: medium;
+        width: 36%;
+        height: 32px;
+        margin-bottom:30%;
+        margin-right:4%;
+        top:4.0%;
+        left:57%;
+    }
+    #rat{
+        width: 250px;
+        height: 60px;
+        margin-top:5%;
+        left:0%;
     }
 
     #heading {
         font-size: 2rem;
-        max-width: 80%;
+        max-width: 50%;
         left: 5%;
         top: 15%;
     }
 
     #message {
         font-size: 1rem;
-        max-width: 90%;
-        margin-right: 5%;
-        margin-top: 25%;
+        max-width: 50%;
+        margin-right: 40%;
+        top:29%;
     }
-
-    #b1, #b2 {
+    #b1 {
         font-size: 0.9rem;
         width: 30%;
         padding: 5px 10px;
+        margin-right: 60%;
+        top:30%;
+    }
+     #b2 {
+        font-size: 0.9rem;
+        width: 30%;
+        padding: 5px 10px;
+        top:35%;
+        margin-right: 60%;
     }
 
     #sub-cont {
@@ -282,7 +307,7 @@ body{
     #fc {
         margin-left: 60%;
         left:28%;
-        top: 10%;
+        top: 20%;
     }
 
     #fc img {
