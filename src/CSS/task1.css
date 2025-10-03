@@ -306,10 +306,9 @@ body{
    #sub-cont {
         display: grid;
         grid-template-columns: 1fr 1fr; /* two equal columns */
-        width: 90%;
+        width: 100%;
         left: 5%;
         top: 50%;
-        border-color: red;
         height: auto; 
         gap: 10px; /* space between image & text */
     }
@@ -322,7 +321,7 @@ body{
     #imagecont img {
         width: 100%;
         height: auto; /* keep aspect ratio */
-        object-fit: contain;
+        object-fit: cover;
         display: block;
     }
 
