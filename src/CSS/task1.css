@@ -245,7 +245,7 @@ body{
         display: block;
     }
     .tag{
-        width:22%;
+        width:24%;
         height:12%;
         top:1.0%;
         left:-1.5%;
@@ -310,19 +310,19 @@ body{
         left: 5%;
         top: 50%;
         height: auto; 
-        gap: 10px; /* space between image & text */
+        gap: 10px; 
+        left:50%;
     }
 
     #imagecont, #mattercont {
-        width: 100%;   /* each will take full space of its grid cell */
-        height: auto;
+        width: 100%;  
     }
 
     #imagecont img {
         width: 100%;
-        height: auto; /* keep aspect ratio */
+        height: 100%; 
         object-fit: cover;
-        display: block;
+        display: block
     }
 
     #mattercont {
