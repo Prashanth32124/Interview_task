@@ -304,26 +304,29 @@ body{
     }
 
     #sub-cont {
-        width: 90%;
-        flex-direction: column;
-        left: 5%;
-        top: 50%;
-        border-color: red;
-    }
-
-   #imagecont, #mattercont {
-        width: 100%;
-        padding: 5px;
-    }
-
-   #imagecont img {
-    max-width: 100%;     /* Image will shrink to fit width */
-    max-height: 100%;    /* Image will shrink to fit height */
-    width: auto;         /* Keep aspect ratio */
-    height: auto;        /* Keep aspect ratio */
-    object-fit: contain; 
-    display: block;  
+    width: 90%;
+    flex-direction: column; /* stack image and matter */
+    left: 5%;
+    top: 50%;
+    border-color: red;
+    height: auto;           /* allow height to grow with content */
 }
+
+#imagecont {
+    width: 100%;
+    height: auto; /* so it only takes the space of the image */
+    text-align: center; /* optional: center image */
+}
+
+#mattercont {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px; 
+    line-height: 1.5;
+    text-align: left;
+    height: auto; /* grow with text */
+}
+
 
     #fc {
         margin-left: 56%;
