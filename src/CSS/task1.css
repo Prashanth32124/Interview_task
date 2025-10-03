@@ -303,30 +303,35 @@ body{
         margin-right: 60%;
     }
 
-    #sub-cont {
-    width: 90%;
-    flex-direction: column; /* stack image and matter */
-    left: 5%;
-    top: 50%;
-    border-color: red;
-    height: auto;           /* allow height to grow with content */
-}
+   #sub-cont {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* two equal columns */
+        width: 90%;
+        left: 5%;
+        top: 50%;
+        border-color: red;
+        height: auto; 
+        gap: 10px; /* space between image & text */
+    }
 
-#imagecont {
-    width: 100%;
-    height: auto; /* so it only takes the space of the image */
-    text-align: center; /* optional: center image */
-}
+    #imagecont, #mattercont {
+        width: 100%;   /* each will take full space of its grid cell */
+        height: auto;
+    }
 
-#mattercont {
-    width: 100%;
-    padding: 15px;
-    font-size: 14px; 
-    line-height: 1.5;
-    text-align: left;
-    height: auto; /* grow with text */
-}
+    #imagecont img {
+        width: 100%;
+        height: auto; /* keep aspect ratio */
+        object-fit: contain;
+        display: block;
+    }
 
+    #mattercont {
+        padding: 15px;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: left;
+    }
 
     #fc {
         margin-left: 56%;
