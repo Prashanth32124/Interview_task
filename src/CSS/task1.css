@@ -279,12 +279,13 @@ body{
         left: 8%;
         top: 18%;
     }
-    #message {
+   #message {
+        position: absolute;
         font-size: 1rem;
-        max-width: 120%;
-        margin-right: 60%;
-        top:31%;
-        left:10%;
+        max-width: 80%;   /* so it doesn’t overflow */
+        top: 31%;         /* place vertically under heading */
+        left: 10%;        /* keep aligned to the left */
+        margin: 0;        /* remove margin shifting */
     }
     #b1 {
         font-size: 0.9rem;
