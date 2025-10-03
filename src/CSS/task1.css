@@ -282,13 +282,13 @@ body{
         width: 30%;
         padding: 5px 10px;
         margin-right: 60%;
-        top:30%;
+        top:32%;
     }
      #b2 {
         font-size: 0.9rem;
         width: 30%;
         padding: 5px 10px;
-        top:35%;
+        top:38%;
         margin-right: 60%;
     }
 
@@ -305,7 +305,7 @@ body{
     }
 
     #fc {
-        margin-left: 60%;
+        margin-left: 56%;
         left:28%;
         top: 20%;
     }
