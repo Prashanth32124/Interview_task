@@ -282,10 +282,10 @@ body{
    #message {
         position: absolute;
         font-size: 1rem;
-        max-width: 80%;   /* so it doesn’t overflow */
-        top: 31%;         /* place vertically under heading */
-        left: 10%;        /* keep aligned to the left */
-        margin: 0;        /* remove margin shifting */
+        max-width: 80%;   
+        top: 33%;         
+        left: 9%;       
+        margin: 0;     
     }
     #b1 {
         font-size: 0.9rem;
