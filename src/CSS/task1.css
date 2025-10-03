@@ -248,7 +248,7 @@ body{
         width:20%;
         height:12%;
         top:1.0%;
-        left:1%;
+        left:-1%;
     }
      #trapezoid{
         transform: scale(0.7);
@@ -274,7 +274,7 @@ body{
 
     #heading {
         font-size: 2rem;
-        max-width: 52%;
+        max-width: 30%;
         left: 5%;
         top: 17%;
     }
