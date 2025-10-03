@@ -225,3 +225,68 @@ body{
     margin-top:50%;
     margin-right:10%;
 }
+@media (max-width: 600px) {
+        .main-nav-links {
+        gap: 0.5rem;  
+        left: 7%;     
+    }
+    #container1 {
+        width: 95%;
+        height: 90vh;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    .tag{
+        width:24%;
+        height:12%;
+        top:1.4%;
+        left:-2%;
+    }
+    .tag1, #trapezoid, #rat {
+        transform: scale(0.7);
+        transform-origin: top left;
+    }
+
+    #heading {
+        font-size: 2rem;
+        max-width: 80%;
+        left: 5%;
+        top: 15%;
+    }
+
+    #message {
+        font-size: 1rem;
+        max-width: 90%;
+        margin-right: 5%;
+        margin-top: 25%;
+    }
+
+    #b1, #b2 {
+        font-size: 0.9rem;
+        width: 30%;
+        padding: 5px 10px;
+    }
+
+    #sub-cont {
+        width: 90%;
+        flex-direction: column;
+        left: 5%;
+        top: 50%;
+    }
+
+    #imagecont, #mattercont {
+        width: 100%;
+        padding: 5px;
+    }
+
+    #fc {
+        margin-left: 60%;
+        left:28%;
+        top: 10%;
+    }
+
+    #fc img {
+        width: 25px;
+        height: 25px;
+    }
+}
