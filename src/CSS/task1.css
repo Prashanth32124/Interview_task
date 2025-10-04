@@ -229,8 +229,8 @@ body{
 @media (max-width: 600px) {
         .main-nav-links {
         gap: 4rem;  
-        left: 13%;  
-        top:13%;   
+        left: 15%;  
+        top:10%;   
     }
     #container1 {
         width: 200%;
