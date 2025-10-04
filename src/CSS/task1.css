@@ -321,6 +321,7 @@ body{
 }
 
 #imagecont img {
+    top:4%;
     width: 90%;          /* reduce image */
     height: 80%;        /* keep ratio */
     object-fit: cover; 
