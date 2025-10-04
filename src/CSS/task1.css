@@ -254,7 +254,7 @@ body{
      #trapezoid{
         transform: scale(0.7);
         transform-origin: top left;
-        left:20%;
+        left:70%;
         bottom:0;
     }
     .tag1{
