@@ -308,7 +308,7 @@ body{
     width: 70%;           /* smaller width */
     height: auto; 
     top: 40%;             /* moved slightly up */
-    left: 15%;            /* centered better */
+    left: 59%;            /* centered better */
     gap: 6px;             /* smaller gap */
     border-radius: 12px;  /* smaller rounding */
     padding: 8px;         /* less padding */
@@ -322,7 +322,7 @@ body{
 
 #imagecont img {
     width: 90%;          /* reduce image */
-    height: 100%;        /* keep ratio */
+    height: 80%;        /* keep ratio */
     object-fit: cover; 
     display: block;
     margin: auto;        /* keep centered */
