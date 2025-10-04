@@ -307,7 +307,7 @@ body{
     grid-template-columns: 1fr 1fr; /* two equal columns */
     width: 82%;           /* smaller width */
     height: auto; 
-    top: 49%;             /* moved slightly up */
+    top: 52%;             /* moved slightly up */
     left: 106%;            /* centered better */
     gap: 6px;             /* smaller gap */
     border-radius: 12px;  /* smaller rounding */
