@@ -312,6 +312,7 @@ body{
         height: auto; 
         gap: 10px; 
         left:73%;
+        border-radius:20px;
     }
 
     #imagecont, #mattercont {
