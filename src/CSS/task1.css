@@ -305,7 +305,7 @@ body{
 #sub-cont {
     display: grid;
     grid-template-columns: 1fr 1fr; /* two equal columns */
-    width: 70%;           /* smaller width */
+    width: 78%;           /* smaller width */
     height: auto; 
     top: 40%;             /* moved slightly up */
     left: 59%;            /* centered better */
