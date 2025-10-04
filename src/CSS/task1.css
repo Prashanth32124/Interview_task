@@ -305,10 +305,10 @@ body{
 #sub-cont {
     display: grid;
     grid-template-columns: 1fr 1fr; /* two equal columns */
-    width: 78%;           /* smaller width */
+    width: 79%;           /* smaller width */
     height: auto; 
     top: 49%;             /* moved slightly up */
-    left: 98%;            /* centered better */
+    left: 102%;            /* centered better */
     gap: 6px;             /* smaller gap */
     border-radius: 12px;  /* smaller rounding */
     padding: 8px;         /* less padding */
